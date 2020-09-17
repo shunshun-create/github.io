@@ -1,0 +1,151 @@
+/* タブレット向けレイアウト */
+@media (max-width: 1024px) {
+  .header nav ul li{
+    font-size:11px;
+  }
+  .header-logo{
+    font-size:28px;
+  }
+  .mainvisual{
+    height:300px;
+  }
+  .mainvisual img{
+    height:300px;
+  }
+  .mainvisual h2{
+    font-size:22px;
+  }
+  .mainvisual::before{
+    height:350px;
+    width:40%;
+  }
+  /*-----------------------------------------*/
+  .contents{
+    height:400px;
+  }
+  .greeting img{
+    width:46%;
+  }
+  h3{
+    font-size:16px;
+  }
+  .greeting p{
+    font-size:14px;
+  }
+/*----------------------------------*/
+  .work-icons{
+    height:300px;
+  }
+  .work-icon img{
+    margin-bottom:30px;
+  }
+  .work-icon span{
+    font-size:14px;
+  }
+  .txt-contents{
+    font-size:10px;
+  }
+/*---------------------------------*/
+  .container{
+    height:300px;
+  }
+  .recruit img{
+    height:200px;
+    margin-left:50px;
+  }
+/*--------------------------------*/
+  .adress{
+    width:90%;
+  }
+
+  .footer nav{
+    display:none;
+  }
+}
+  /* スマホ向けレイアウト */
+@media (max-width:766px) {
+  .header-nav{
+    height:50px;
+  }
+  .header nav ul{
+    display:none;
+  }
+  .header-logo{
+    font-size:18px;
+  }
+  .mainvisual{
+    height:200px;
+    margin:0;
+  }
+  .mainvisual img{
+    height:200px;
+  }
+  .mainvisual h2{
+    font-size:13px;
+  }
+  .mainvisual::before{
+    height:250px;
+    width:40%;
+  }
+/*-----------------------------------------*/
+  .contents{
+    height:auto;
+    flex-direction:column;
+    margin:20px 0;
+  }
+  .greeting img{
+    height:150px;
+    width:85%;
+    margin: 0;
+  }
+  .content{
+    width:85%;
+  }
+  h3{
+    font-size:12px;
+  }
+  .greeting p{
+    font-size:8px;
+  }
+/*------------------------------------------------*/
+  .work-icons{
+    height:auto;
+    width:50%;
+  }
+  .work-icon img{
+    margin:20px 0 0 0;
+  }
+  .work-icon span{
+    font-size:12px;
+  }
+  .txt-contents{
+    font-size:10px;
+  }
+  .work-title:after{
+    height:600px;
+  }
+/*-------------------------------------------------*/
+  .container{
+    height:250px;
+  }
+  .recruit img{
+    height:150px;
+    margin-left:15px;
+
+  }
+  .recruit-title{
+    top:40%;
+    left:20%;
+  }
+  .container:after{
+    height:125px;
+  }
+/*------------------------------------------------*/
+  .adress{
+    text-align:center;
+    font-size:10px
+  }
+  .footer-logo{
+    font-size:12px;
+  }
+}
